@@ -34,17 +34,17 @@ app.get('/proxy', async (req, res) => {
 app.get('/', (req, res) => {
   res.json({
     status: "✅ API Active",
-    message: "🚀 ইন্সটাগ্রাম মিডিয়া ডাউনলোডার এপিআই চালু রয়েছে!",
-    developer: "👨‍💻 Developed by: 𝐖𝐎𝐎𝐃𝐜𝐫𝐚𝐟𝐭",
+    message: "🚀 Its Up!",
+    developer: "👨‍💻 Developed by: Usefull Botz",
     version: "🔖 v1.007",
     channels: [
       {
         name: "📢 Updates Channel",
-        link: "https://t.me/Opleech_WD"
+        link: "https://t.me/usefull_botz"
       },
       {
         name: "💬 Support",
-        link: "https://t.me/Farooq_is_king"
+        link: "https://t.me/usefull_botz"
       }
     ],
     usage: "📥 POST /api/instagram with JSON { url: '<instagram-url>' }"
